@@ -10,8 +10,8 @@ const DEFAULT_EMPTY_LIST = [
   'toml',
   'jsx',
   'import',
-  'export',
-  'testchange'
+  'image',
+  'export'
 ]
 
 /* Return an stringified image. */
@@ -51,7 +51,6 @@ class MDXStrip {
     this.map.heading = paragraph
     this.map.text = text
     this.map.inlineCode = text
-    this.map.image = image
     this.map.imageReference = image
     this.map.break = lineBreak
 
